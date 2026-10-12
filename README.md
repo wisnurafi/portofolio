@@ -81,8 +81,12 @@ src/
 
 - `DESIGN.md` — the design concept and rules
 - `CONTRIBUTING.md` — how to contribute (small fixes welcome)
-- `PRIVACY.md` — what the site collects (nothing)
+- `SECURITY.md` — how to report security issues
 - `roadmap.txt` — where it's heading, and what's out of scope
+
+## Privacy
+
+No analytics, no cookies, no tracking. This site collects nothing.
 
 ## License
 
