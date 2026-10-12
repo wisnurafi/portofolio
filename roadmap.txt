@@ -1,0 +1,41 @@
+portofolio roadmap
+=================
+Last updated: 2026-10-12
+
+This is a personal site, not a product. The roadmap is mostly "keep it
+true and keep it fast". Big redesigns are done deliberately and rarely —
+the last one took the site from an evidence-board concept to system24 calm.
+
+DONE
+----
+- system24 calm redesign (Next.js 16, React 19, 100% hand-written CSS,
+  DM Mono everywhere, zero UI dependencies)
+- Career as release notes, project rows with real screenshots, tmux-style
+  status bar with visitor-local clock
+- SEO/AIO overhaul: metadata, sitemap, robots, JSON-LD, dynamic OG image,
+  llms.txt
+
+NEXT
+----
+- Keep content honest: projects, changelog, and stack updated as things
+  actually ship. A stale portfolio is worse than no portfolio.
+- Performance budget: stay dependency-free on the UI side. If a new
+  section needs a library, that's a sign the section is wrong.
+- Accessibility pass: keyboard navigation, focus states, reduced-motion
+  respect, contrast check on the oklch grays.
+
+MAYBE SOMEDAY
+-------------
+- A writing section (short notes, not a blog engine).
+- Indonesian version of the copy.
+
+EXPLICITLY OUT OF SCOPE
+-----------------------
+- A CMS. Content lives in src/lib/data.ts, edited by hand, committed
+  with git. That's the workflow and it's staying.
+- Contact form backend. Email link is enough; a form would need a
+  server, spam filtering, and a privacy policy with actual teeth.
+- Analytics. No tracking, no cookies, no "insights". See PRIVACY.md.
+- Light mode. The design is dark-only by rule, not by omission.
+- Templates, themes, or any feature that makes this look like
+  anyone else's portfolio.
