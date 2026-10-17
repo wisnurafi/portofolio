@@ -45,7 +45,7 @@ export default function Hero() {
             <div>
               <span className="k">focus</span>
               <span className="v">
-                <b>reverse</b> engineering · <b>red</b> team
+                <b>offensive</b> security · <b>pentest</b>
               </span>
             </div>
             <div>
